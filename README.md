@@ -18,7 +18,6 @@ pip install -r requirements.txt
 
 ## NELL-995
 
-# Run code
 Data Pre-Processing :
 ```shell
 bash make_story.sh --dataset NELL-995
