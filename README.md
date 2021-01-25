@@ -18,6 +18,7 @@ pip install -r requirements.txt
 
 ## NELL-995
 
+Run code:
 ```shell
 python3 run_bert_relation_prediction.py 
 --task_name kg  
@@ -34,4 +35,6 @@ python3 run_bert_relation_prediction.py
 --gradient_accumulation_steps 1 
 --eval_batch_size 512
 ```
+
+Result:
 
