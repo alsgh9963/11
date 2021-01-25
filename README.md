@@ -29,7 +29,6 @@ useage: [--dataset] - Dataset 이름.
 ```   
 -----------------------------------    
 
-
 Train & Test :
 ```shell
 python run_bert_triple_classifier.py 
