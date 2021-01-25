@@ -7,8 +7,7 @@ pip install -r requirements.txt
 ```
 
 # 2. Statistics of Datasets
-
-||Datasets|#entities|#relations|#train|#dev|#test|#tasks|
+||#entities|#relations|#train|#dev|#test|#tasks|
 |:-----------:|------------:|------------:|------------:|------------:|------------:|------------:|
 |NELL-995|75,492|200|154,213|5,000|5,000|12|
 |FB15K-237|14,541|237|272,115|17,535|20,466|10|
