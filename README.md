@@ -18,20 +18,26 @@ pip install -r requirements.txt
 
 ## NELL-995
 
-Run code:
+# Run code
+Data Pre-Processing :
 ```shell
-python3 run_bert_relation_prediction.py 
---task_name kg  
+bash make_story.sh --dataset NELL-995
+```
+
+Train & Test :
+```shell
+python run_bert_triple_classifier.py 
+--task_name kg
 --do_train  
 --do_eval 
 --do_predict 
---data_dir ./data/FB15K 
---bert_model bert-base-cased
---max_seq_length 25
+--data_dir ./data/WN11 
+--bert_model bert-base-uncased 
+--max_seq_length 20 
 --train_batch_size 32 
 --learning_rate 5e-5 
---num_train_epochs 20.0 
---output_dir ./output_FB15K/  
+--num_train_epochs 3.0 
+--output_dir ./output_WN11/  
 --gradient_accumulation_steps 1 
 --eval_batch_size 512
 ```
