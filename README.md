@@ -26,7 +26,9 @@ bash make_story.sh --dataset NELL-995
 Options of ``make_story.sh``:
 ```
 useage: [--dataset] - Dataset 이름.
-```
+```   
+-----------------------------------    
+
 
 Train & Test :
 ```shell
