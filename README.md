@@ -42,4 +42,9 @@ python run_bert_triple_classifier.py
 ```
 
 Result:
-
+```shell
+  MAP  : 0.894
+  MRR  : 0.898
+Hits@1 : 0.838
+Hits@3 : 0.951
+```
