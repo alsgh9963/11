@@ -16,15 +16,10 @@ pip install -r requirements.txt
 
 # 3. Reproducing results
 
-## NELL-995
-
 Data Pre-Processing :
 ```shell
-bash make_story.sh --dataset <DATASETS>
+bash make_story.sh --dataset <DATASETS>   /   <Dataset> -> NELL-995, FB15K-237, Countries, Kinship
 ```
-"<"DATASETS">" : NELL-995, FB15K-237, Countries, Kinship       
-     
-    
      
 Options of ``make_story.sh``:
 ```
