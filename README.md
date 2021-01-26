@@ -48,7 +48,7 @@ Options of ``run_main.sh``:
 useage: [--dataset] - Dataset 이름.
         [--LSTM_hidden_size] - LSTM hidden unit의 size.
         [--CNN_num_filter] - CNN Filter의 갯수.
-        [--CNN_pooling_size] - Pooling layer의 size.
+        [--CNN_pooling_size] - Pooling size.
         [--batch_size] - Training 과정에서의 Batch size.
         [--num_epochs] - Training 횟수.
         [--learning_rate] - 학습률.
