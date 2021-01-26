@@ -38,7 +38,7 @@ bash make_story.sh --dataset <DATASETS>
 useage: [--dataset] - Dataset 이름 (NELL-995, FB15K-237, Countries, Kinship)
 ```   
 
-**_Note._** 모든 Dataset에 대하여 Pre-Processing 된 data를 `data/processed_data`에 제공
+**_Note._** 모든 Dataset에 대하여 Pre-Processing 된 data를 `data/processed_data` 폴더에 제공
 
 -----------------------------------    
 
@@ -79,6 +79,8 @@ useage: [--dataset] - Dataset 이름 (NELL-995, FB15K-237, Countries, Kinship)
 |Kinship|0.946|0.952|0.918|0.984|
 
 # 4. Format of the dataset
+
+- `data/<DATASETS>/ontology.txt` : Ontology 
 
 - `data/<DATASETS>/paths/`
   - `<RELATIONS>.txt` : Path Ranking Algorithm을 통해 추출된 Paths    
