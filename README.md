@@ -52,7 +52,7 @@ useage: [--dataset] - Dataset 이름.
         [--batch_size] - Training 과정에서의 Batch size.
         [--num_epochs] - Training 횟수.
         [--learning_rate] - 학습률.
-        [--patience] - 기준값이 연속으로 몇번 이상 향상되지 않을 때 종료.
+        [--patience] - Early stopping할 Epochs 수.
         [--log_name] - Log file의 이름.
 ```   
 ----------------------------------
