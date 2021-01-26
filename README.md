@@ -1,5 +1,5 @@
 # Path-based reasoning approach for knowledge graph completion using CNN-BiLSTM with attention mechanism
-
+Knowledge graphs are valuable resources for building intelligent systems such as question answering or recommendation systems. However, most knowledge graphs are impaired by missing relationships between entities. We propose a new approach for knowledge graph completion that combines bidirectional long short-term memory (BiLSTM) and convolutional neural network modules with an attention mechanism. Given a candidate relation and two entities, we encode paths that connect the entities into a low-dimensional space using a convolutional operation followed by BiLSTM. Then, an attention layer is applied to capture the semantic correlation between a candidate relation and each path between two entities and attentively extract reasoning evidence from the representation of multiple paths to predict whether the entities should be connected by the candidate relation.
 
 
 # 1. Statistics of datasets used in this code
