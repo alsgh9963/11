@@ -18,12 +18,12 @@ pip install -r requirements.txt
 
 Data Pre-Processing :
 ```shell
-bash make_story.sh --dataset <DATASETS>   /   <Dataset> -> NELL-995, FB15K-237, Countries, Kinship
+bash make_story.sh --dataset <DATASETS>
 ```
      
 Options of ``make_story.sh``:
 ```
-useage: [--dataset] - Dataset 이름.
+useage: [--dataset] - Dataset 이름 (NELL-995, FB15K-237, Countries, Kinship)
 ```   
 -----------------------------------    
 
