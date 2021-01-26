@@ -21,7 +21,7 @@ pip install -r requirements.txt
 # 3. Reproducing results
 각 Dataset에 대하여 Pre-Processing을 수행 후 Training과 Testing 수행
 
-### Data Pre-Processing :
+### (1) Data Pre-Processing :
 ```shell
 bash make_story.sh --dataset <DATASETS>
 ```
@@ -32,7 +32,7 @@ useage: [--dataset] - Dataset 이름 (NELL-995, FB15K-237, Countries, Kinship)
 ```   
 -----------------------------------    
 
-### Training and Testing :
+### (2) Training and Testing :
 ```shell
 bash run_main.sh 
 --dataset <DATASETS>
