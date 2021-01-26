@@ -70,17 +70,16 @@ useage: [--dataset] - Dataset 이름 (NELL-995, FB15K-237, Countries, Kinship)
 
 # 4. Format of the dataset
 
-- `data/<DATASETS>/`
-  - `paths/<RELATIONS>.txt` : Path Ranking Algorithm을 통해 추출된 Paths  
-  - `tasks/<RELATIONS>`
+- `data/<DATASETS>/paths/`
+  - `<RELATIONS>.txt` : Path Ranking Algorithm을 통해 추출된 Paths    
     
-``data/<DATASETS>/paths/<Relation>`` : Path Ranking Algorithm을 통해 추출된 Paths   
-``data/<DATASETS>/tasks/<Relation>/graph.txt`` : Knowledge Graphs   
-``data/<DATASETS>/tasks/<Relation>/train.pairs`` : Correct, Corrupt Train Data   
-``data/<DATASETS>/tasks/<Relation>/train_pos`` : Correct Train Data   
-``data/<DATASETS>/tasks/<Relation>/test.pairs`` : Correct, Corrupt Test Data   
-``data/<DATASETS>/tasks/<Relation>/sort_test.pairs`` : 정렬된 Test Data   
-
+- `data/<DATASETS>/tasks/<RELATIONS>/`
+  - `graph.txt` : Knowledge Graphs
+  - `train.pair` : Correct, Corrupt Train Data 
+  - `train_pos` : Correct Train Data
+  - `test.pairs` : Correct, Corrupt Test Data  
+  - `sort_test.pairs` : 정렬된 Test Data  
+  
 # 5. Citation
 ```
     @article{jagvaral2020path,
