@@ -10,6 +10,13 @@ Knowledge graphs are valuable resources for building intelligent systems such as
 |Countries|272|2|1,158|68|72|2|
 |Kinship|104|26|6,926|769|1,069|26|
 
+#entities : number of entities
+#relations : nubmer of relations
+#train : number of train data
+#dev : number of development data
+#test : number of test data
+#tasks : number of link prediction tasks
+
 # 2. Requirement
 
 The code has been tested running under Python 3.6.5
