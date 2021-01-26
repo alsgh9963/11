@@ -23,7 +23,9 @@ Data Pre-Processing :
 bash make_story.sh --dataset <DATASETS>
 ```
 "<"DATASETS">" : NELL-995, FB15K-237, Countries, Kinship       
-
+     
+    
+     
 Options of ``make_story.sh``:
 ```
 useage: [--dataset] - Dataset 이름.
