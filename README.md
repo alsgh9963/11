@@ -16,18 +16,18 @@ pip install -r requirements.txt
 
 # 3. Reproducing results
 
-Data Pre-Processing :
+### Data Pre-Processing :
 ```shell
 bash make_story.sh --dataset <DATASETS>
 ```
      
-Options of ``make_story.sh``:
+### Options of ``make_story.sh``:
 ```
 useage: [--dataset] - Dataset 이름 (NELL-995, FB15K-237, Countries, Kinship)
 ```   
 -----------------------------------    
 
-Train & Test :
+### Training and Testing :
 ```shell
 bash run_main.sh 
 --dataset <DATASETS>
@@ -41,7 +41,7 @@ bash run_main.sh
 --log_name NELL_log
 ```
 
-Options of ``run_main.sh``:
+### Options of ``run_main.sh``:
 ```
 useage: [--dataset] - Dataset 이름 (NELL-995, FB15K-237, Countries, Kinship)
         [--LSTM_hidden_size] - LSTM hidden unit의 size.
