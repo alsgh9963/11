@@ -31,21 +31,31 @@ useage: [--dataset] - Dataset 이름.
 
 Train & Test :
 ```shell
-python run_bert_triple_classifier.py 
---task_name kg
---do_train  
---do_eval 
---do_predict 
---data_dir ./data/WN11 
---bert_model bert-base-uncased 
---max_seq_length 20 
---train_batch_size 32 
---learning_rate 5e-5 
---num_train_epochs 3.0 
---output_dir ./output_WN11/  
---gradient_accumulation_steps 1 
---eval_batch_size 512
+bash run_main.sh 
+--dataset NELL-995
+--LSTM_hidden_size 100
+--CNN_num_filter 50
+--CNN_pooling_size 2
+--batch_size 128
+--num_epochs 50
+--learning_rate 0.001
+--patience 30
+--log_name NELL_log
 ```
+
+Options of ``run_main.sh``:
+```
+useage: [--dataset] - Dataset 이름.
+        [--LSTM_hidden_size] - LSTM hidden unit의 size.
+        [--CNN_num_filter] - CNN Filter의 갯수.
+        [--CNN_pooling_size] - Pooling layer의 size.
+        [--batch_size] - Training 과정에서의 Batch size.
+        [--num_epochs] - Training 횟수.
+        [--learning_rate] - 학습률.
+        [--patience] - 기준값이 연속으로 몇번 이상 향상되지 않을 때 종료.
+        [--log_name] - Log file의 이름.
+```   
+----------------------------------
 
 Result:
 ```shell
