@@ -37,6 +37,7 @@ bash make_story.sh --dataset <DATASETS>
 ```
 useage: [--dataset] - Dataset 이름 (NELL-995, FB15K-237, Countries, Kinship)
 ```   
+모든 Dataset에 대하여 Pre-Processing 된 data를 `data/processed_data`에 제공
 -----------------------------------    
 
 ### (2) Training and Testing :
