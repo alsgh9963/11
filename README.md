@@ -1,6 +1,6 @@
 # Path-based reasoning approach for knowledge graph completion using CNN-BiLSTM with attention mechanism
 
-The code has been tested running under Python 3.6.5
+
 
 # 1. Statistics of datasets used in this code
 ||#entities|#relations|#train|#dev|#test|#tasks|
@@ -10,8 +10,10 @@ The code has been tested running under Python 3.6.5
 |Countries|272|2|1,158|68|72|2|
 |Kinship|104|26|6,926|769|1,069|26|
 
-# 2. Installing requirement packages
+# 2. Requirement
 
+The code has been tested running under Python 3.6.5
+### Installing packages
 ```bash
 pip install -r requirements.txt
 ```
