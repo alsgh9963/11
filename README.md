@@ -25,7 +25,15 @@ The code has been tested running under Python 3.6.5
 pip install -r requirements.txt
 ```
 
-# 3. Reproducing results
+# 3. File description
+- `Story_Generator.py` : 주어를 시작으로 목적어로 가는 path(model input)들을 생성하는 python file
+- `make_story.sh` : Story_Generator.py를 편리하게 실행시키기 위한 shell script
+- `main.py` : Model Training 및 Testing 하는 python file
+- `run_main.sh` : main.py를 편리하게 실행시키기 위한 shell script
+- `data_utils.py` : 코드 실행 시 필요한 함수들을 정의한 python file
+
+
+# 4. Reproducing results
 각 Dataset에 대하여 Pre-Processing을 수행 후 Training과 Testing 수행
 
 ### (1) Data Pre-Processing :
@@ -78,7 +86,7 @@ useage: [--dataset] - Dataset 이름 (NELL-995, FB15K-237, Countries, Kinship)
 |Countries|0.947|0.947|0.916|0.986|
 |Kinship|0.946|0.952|0.918|0.984|
 
-# 4. Format of the dataset
+# 5. Format of the dataset
 
 - `data/<DATASETS>/ontology.txt` : 각 dataset에 대한 Ontology file   
       
@@ -92,7 +100,7 @@ useage: [--dataset] - Dataset 이름 (NELL-995, FB15K-237, Countries, Kinship)
   - `test.pairs` : Correct, Corrupt Test Data  
   - `sort_test.pairs` : 정렬된 Test Data  
   
-# 5. Citation
+# 6. Citation
 ```
     @article{jagvaral2020path,
       title={Path-based reasoning approach for knowledge graph completion using CNN-BiLSTM with attention mechanism},
