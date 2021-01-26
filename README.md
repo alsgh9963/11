@@ -74,4 +74,15 @@ useage: [--dataset] - Dataset 이름 (NELL-995, FB15K-237, Countries, Kinship)
 ``data/<DATASETS>/tasks/<Relation>/test.pairs`` : Correct, Corrupt Test Data   
 ``data/<DATASETS>/tasks/<Relation>/sort_test.pairs`` : 정렬된 Test Data   
 
-
+# 5. Citation
+```
+    @article{jagvaral2020path,
+      title={Path-based reasoning approach for knowledge graph completion using CNN-BiLSTM with attention mechanism},
+      author={Jagvaral, Batselem and Lee, Wan-Kon and Roh, Jae-Seung and Kim, Min-Sung and Park, Young-Tack},
+      journal={Expert Systems with Applications},
+      volume={142},
+      pages={112960},
+      year={2020},
+      publisher={Elsevier}
+    }
+```
