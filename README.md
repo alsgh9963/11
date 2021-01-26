@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ```
 
 # 3. Reproducing results
-각 Dataset에 대하여 Pre-Processing을 진행 후 Training과 Testing 수행
+각 Dataset에 대하여 Pre-Processing을 수행 후 Training과 Testing 수행
 
 ### Data Pre-Processing :
 ```shell
