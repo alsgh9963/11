@@ -80,8 +80,8 @@ useage: [--dataset] - Dataset 이름 (NELL-995, FB15K-237, Countries, Kinship)
 
 # 4. Format of the dataset
 
-- `data/<DATASETS>/ontology.txt` : Ontology 
-
+- `data/<DATASETS>/ontology.txt` : 각 dataset에 대한 Ontology file   
+      
 - `data/<DATASETS>/paths/`
   - `<RELATIONS>.txt` : Path Ranking Algorithm을 통해 추출된 Paths    
     
