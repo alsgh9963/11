@@ -30,7 +30,7 @@ useage: [--dataset] - Dataset 이름 (NELL-995, FB15K-237, Countries, Kinship)
 Train & Test :
 ```shell
 bash run_main.sh 
---dataset NELL-995
+--dataset <DATASETS>
 --LSTM_hidden_size 100
 --CNN_num_filter 50
 --CNN_pooling_size 2
@@ -43,7 +43,7 @@ bash run_main.sh
 
 Options of ``run_main.sh``:
 ```
-useage: [--dataset] - Dataset 이름.
+useage: [--dataset] - Dataset 이름 (NELL-995, FB15K-237, Countries, Kinship)
         [--LSTM_hidden_size] - LSTM hidden unit의 size.
         [--CNN_num_filter] - CNN Filter의 갯수.
         [--CNN_pooling_size] - Pooling size.
