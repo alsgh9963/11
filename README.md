@@ -18,8 +18,8 @@ Knowledge graphs are valuable resources for building intelligent systems such as
 - `#tasks` : number of link prediction tasks   
 
 # 2. Requirement
+해당 코드는 Python 3.6.5에서 실행됨.
 
-The code has been tested running under Python 3.6.5
 ### Installing packages
 ```bash
 pip install -r requirements.txt
