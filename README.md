@@ -28,7 +28,7 @@ pip install -r requirements.txt
 # 3. File description
 - `Story_Generator.py` : Data를 model의 input 형태로 processing 하기 위한 python file
 - `make_story.sh` : Story_Generator.py를 편리하게 실행시키기 위한 shell script
-- `main.py` : Model Training 및 Testing 하는 python file
+- `main.py` : Model Training 및 Testing 하기  python file
 - `run_main.sh` : main.py를 편리하게 실행시키기 위한 shell script
 - `data_utils.py` : 코드 실행 시 필요한 함수들을 정의한 python file
 
@@ -91,7 +91,7 @@ useage: [--dataset] - Dataset 이름 (NELL-995, FB15K-237, Countries, Kinship)
 - `data/<DATASETS>/ontology.txt` : 각 dataset에 대한 Ontology file   
       
 - `data/<DATASETS>/paths/`
-  - `<RELATIONS>.txt` : Path Ranking Algorithm을 통해 추출된 Paths    
+  - `<RELATIONS>.txt` : Path Ranking Algorithm을 통해 추출된 Relation Paths    
     
 - `data/<DATASETS>/tasks/<RELATIONS>/`
   - `graph.txt` : Knowledge Graphs
