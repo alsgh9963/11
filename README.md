@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ```
 
 # 3. File description
-- `Story_Generator.py` : 주어를 시작으로 목적어로 가는 path(model input)들을 생성하는 python file
+- `Story_Generator.py` : Data를 model의 input 형태로 processing 하기 위한 python file
 - `make_story.sh` : Story_Generator.py를 편리하게 실행시키기 위한 shell script
 - `main.py` : Model Training 및 Testing 하는 python file
 - `run_main.sh` : main.py를 편리하게 실행시키기 위한 shell script
