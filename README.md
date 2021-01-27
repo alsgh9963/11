@@ -86,7 +86,7 @@ useage: [--dataset] - Dataset 이름 (NELL-995, FB15K-237, Countries, Kinship)
 |Countries|0.947|0.947|0.916|0.986|
 |Kinship|0.946|0.952|0.918|0.984|
 
-# 5. Format of the dataset
+# 5. Data description
 
 - `data/<DATASETS>/ontology.txt` : 각 dataset에 대한 Ontology file   
       
