@@ -2,7 +2,7 @@
 Knowledge graphs are valuable resources for building intelligent systems such as question answering or recommendation systems. However, most knowledge graphs are impaired by missing relationships between entities. We propose a new approach for knowledge graph completion that combines bidirectional long short-term memory (BiLSTM) and convolutional neural network modules with an attention mechanism. Given a candidate relation and two entities, we encode paths that connect the entities into a low-dimensional space using a convolutional operation followed by BiLSTM. Then, an attention layer is applied to capture the semantic correlation between a candidate relation and each path between two entities and attentively extract reasoning evidence from the representation of multiple paths to predict whether the entities should be connected by the candidate relation.
 
 
-# 1. Statistics of datasets used in this code
+# 1. Statistics of datasets
 ||#entities|#relations|#train|#dev|#test|#tasks|
 |:-----------:|------------:|------------:|------------:|------------:|------------:|------------:|
 |NELL-995|75,492|200|154,213|5,000|5,000|12|
@@ -10,12 +10,12 @@ Knowledge graphs are valuable resources for building intelligent systems such as
 |Countries|272|2|1,158|68|72|2|
 |Kinship|104|26|6,926|769|1,069|26|
 
-- `#entities` : number of entities   
-- `#relations` : nubmer of relations   
-- `#train` : number of train data    
-- `#dev` : number of development data   
-- `#test` : number of test data   
-- `#tasks` : number of link prediction tasks   
+- `#entities` : entities의 갯수   
+- `#relations` : relations의 갯수 
+- `#train` : Train data의 갯수  
+- `#dev` : Development data의 갯수   
+- `#test` : Test data의 갯수
+- `#tasks` : Link prediction tasks  
 
 # 2. Requirement
 해당 코드는 Python 3.6.5에서 실행됨.
