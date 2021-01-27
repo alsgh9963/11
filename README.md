@@ -33,7 +33,7 @@ pip install -r requirements.txt
 - `data_utils.py` : 코드 실행 시 필요한 함수들을 정의한 python file
 
 
-# 4. Reproducing results
+# 4. Run code
 각 Dataset에 대하여 Pre-Processing을 수행 후 Training과 Testing 수행
 
 ### (1) Data Pre-Processing :
