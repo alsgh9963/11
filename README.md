@@ -34,6 +34,8 @@ pip install -r requirements.txt
 
 
 # 4. Run code
+**_Note._** data.zip을 압축 해제 후 진행
+
 각 Dataset에 대하여 Pre-Processing을 수행 후 Training과 Testing 수행
 
 ### (1) Data Pre-Processing :
@@ -45,8 +47,6 @@ bash make_story.sh --dataset <DATASETS>
 ```
 useage: [--dataset] - Dataset 이름 (NELL-995, FB15K-237, Countries, Kinship)
 ```   
-
-**_Note._** 모든 Dataset에 대하여 Pre-Processing 한 data를 `data/processed_data` 폴더에 제공
 
 -----------------------------------    
 
