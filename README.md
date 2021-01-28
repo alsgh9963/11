@@ -93,8 +93,8 @@ useage: [--dataset] - Dataset 이름 (NELL-995, FB15K-237, Countries, Kinship)
 - `data/<DATASETS>/paths/`
   - `<RELATIONS>.txt` : Path Ranking Algorithm을 통해 추출된 Relation Paths    
     
+- `data/<DATASETS>/tasks/graph.txt` : Knowledge Graphs
 - `data/<DATASETS>/tasks/<RELATIONS>/`
-  - `graph.txt` : Knowledge Graphs
   - `train.pair` : Correct, Corrupt Train Data 
   - `train_pos` : Correct Train Data
   - `test.pairs` : Correct, Corrupt Test Data  
